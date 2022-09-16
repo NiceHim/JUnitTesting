@@ -17,7 +17,7 @@ public class Poker {
 		return false;
 	}
 
-	// Precondition: A hand of n cards have been sorted by card number.
+	// Precondition: A hand of n cards have been sorted by card number.wwwww
 	public boolean isTwoPairs(String cards[], int n) {
 		int count = 0;
 		for (int i=0; i<n-1; i++) {
